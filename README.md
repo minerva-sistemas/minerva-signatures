@@ -1,6 +1,6 @@
 ![](http://i.imgur.com/JTyviEc.png)
 
-´composer require minerva-sistemas/minerva-signatures´
+`composer require minerva-sistemas/minerva-signatures`
 
 Crie assinaturas para seus objetos utilizando comentários. Para criar uma assinatura, basta fazer como no exemplo abaixo, onde criamos uma assinatura de configuração para o objeto. Você pode utilizar qualquer tag para criar sua assinatura, desde que seja no padrão JSON e tenha uma chave e um valor.
 
