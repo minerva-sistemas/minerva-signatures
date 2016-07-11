@@ -1,5 +1,7 @@
 # minerva-signatures
 
+Crie constantes de configuração para seus objetos e propriedades de uma forma que não deixe seu código completamente bagunçado.
+
 ```php
 /**
  * Class Car
