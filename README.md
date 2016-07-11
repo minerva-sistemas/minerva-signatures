@@ -16,8 +16,11 @@ class Car
     public $engine = 'v8';
 }
 ```
+Para acessar os valores definidos também é simples.
 
 ```php
 $configuration = SignatureParser::getDictionary($car, null, '@configure');
+
 echo $configuration->get('brand')->getValue(); // Chevrolet
+echo $configuration->get('brand')->getName();  // Brand
 ```
