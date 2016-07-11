@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="./vendor/autoload.php" colors="true">
+<phpunit bootstrap="./bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="minerva-signatures">
-            <directory>./test</directory>
+            <directory>./Minerva/Signatures/Tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>

@@ -10,10 +10,14 @@
     }
   ],
   "autoload": {
-    "prs-4": {"": "/src/Minerva/Signatures"}
+    "psr-4": {
+      "Minerva\\": "src/Minerva"
+    }
   },
   "autoload-dev": {
-    "prs-4": {"": "/test/Minerva/Signatures/Tests"}
+    "psr-4": {
+      "Minerva\\Signatures\\Tests\\": "test/Minerva/Signatures/Tests"
+    }
   },
   "require": {
     "easyframework/collections": "5.0.0-beta"
