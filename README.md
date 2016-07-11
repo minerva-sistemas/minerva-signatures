@@ -17,5 +17,5 @@ class Car
 
 ```php
 $configuration = SignatureParser::getDictionary($car, null, '@configure');
-echo $configuration->get('brand')->getValue();
+echo $configuration->get('brand')->getValue(); // Chevrolet
 ```
