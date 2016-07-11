@@ -8,14 +8,11 @@ Crie assinaturas para seus objetos utilizando comentários. Para criar uma assin
 /**
  * Class Car
  * @author  Lucas A. de Araújo <lucas@minervasistemas.com.br>
- * @configure {"brand":"Chevrolet"}
+ * @configure {"adapter":"Connection1"}
+ * @configure {"table":"loja_cliente"}
  */
-class Car
+class Cliente
 {
-    /**
-     * @configure {"cc":"5.0"}
-     */
-    public $engine = 'v8';
 }
 ```
 Para acessar os valores definidos também é simples.
