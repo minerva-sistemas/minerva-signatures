@@ -1,12 +1,12 @@
 <?php
 
-namespace Minerva\Signatures;
+namespace Minerva\Signatures\Signature;
 
 /**
  * Assinatura de um objeto
  *
  * @author  Lucas A. de Araújo <lucas@minervasistemas.com.br>
- * @package Minerva\Signatures
+ * @package Minerva\Signatures\Signature
  */
 class Signature
 {
