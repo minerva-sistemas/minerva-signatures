@@ -6,20 +6,17 @@ Crie assinaturas para seus objetos utilizando comentários. Para criar uma assin
 
 ```php
 /**
- * Class Car
- * @author  Lucas A. de Araújo <lucas@minervasistemas.com.br>
  * @configure {"adapter":"Connection1"}
  * @configure {"table":"loja_cliente"}
  */
-class Cliente
-{
-}
+class Cliente {}
 ```
 Para acessar os valores definidos também é simples.
 
 ```php
-$configuration = SignatureParser::getDictionary($car, null, '@configure');
+$cliente = new Cliente();
+$configuration = SignatureParser::getDictionary($cliente);
 
-echo $configuration->get('brand')->getValue(); // Chevrolet
-echo $configuration->get('brand')->getName();  // Brand
+echo $configuration->get('table')->getValue(); // loja_cliente
+echo $configuration->get('table')->getName();  // table
 ```
